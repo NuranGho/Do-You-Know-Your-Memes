@@ -1,0 +1,108 @@
+body {
+    background-color: #808080;
+}
+
+.answers {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #f389d0de;
+}
+
+h1,
+h2 {
+    color: #808080;
+    background-color: #ccccff;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-size: 3.2em;
+    text-decoration: underline;
+    text-decoration-color: #A9A9A9;
+    text-decoration-style: wavy;
+}
+
+h2 {
+    margin-bottom: 5px;
+    margin-left: 400px;
+    padding: 15px;
+    border-style: dashed;
+    border-color: #808080;
+    border-width: 5px;
+    width: 50%;
+    font-style: italic;
+}
+
+.headericon {
+    float: left;
+    position: absolute;
+    bottom: 39.9em;
+    overflow: hidden;
+    width: 145pt;
+    height: fixed;
+}
+
+.headericon2 {
+    float: right;
+    position: absolute;
+    right: 0em;
+    bottom: 39.9em;
+    overflow: hidden;
+    width: 145pt;
+    height: fixed;
+}
+
+.instructions {
+    font-family: cursive;
+    font-weight: bold;
+    color: #ccccff;
+    font-size: 15pt;
+}
+
+.resultsbutton {
+    background-color: #ccccff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: bold;
+    font-size: 15pt;
+    border-style: double;
+    border-color: #808080;
+    border-width: 5px;
+    position: absolute;
+    left: 50%;
+}
+
+.correct {
+    color: #50C878;
+    font-size: 14pt;
+}
+
+.incorrect {
+    color: #D00000;
+    font-size: 14pt;
+}
+
+.score {
+    color: #ccccff;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.genie {
+    border-radius: 8px;
+    width: 360px;
+    height: 300px;
+    position: absolute;
+    right: 2em;
+    bottom: 15em;
+}
+
+.king {
+    border-radius: 8px;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    right: 2em;
+    bottom: 15em;
+}
